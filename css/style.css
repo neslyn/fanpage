@@ -3,17 +3,28 @@ html {
 }
 
 body {
+    background-color:black;
     height: 100%;
     
 }
 a {
     text-decoration: none;
+    
 }
 
 .main {
     height: 100%;
 }
 .social-image{
-    width: 30px;
+     display:flex;
+    justify-content:flex-start;
+    width: 50px;
     margin: 15px;
+}
+.thumbnail-image{
+    display:flex;
+    justify-content:space-between;
+    width: 550px;
+    margin: 50px; 
+
 }
